@@ -1,0 +1,288 @@
+body{
+    font-family: 'Playfair Display', serif;
+    margin: 0;
+    padding: 0;
+}
+
+p{
+    margin: 0;
+}
+h1,h2,h3,h4,h5{
+    margin: 0;
+}
+
+.container{
+    width: 1100px;
+    margin: auto;
+}
+
+/* banaer-area start */
+
+.banaer-area{
+    background-image: url(image/donation3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-top: 200px;
+    padding-bottom: 190px;
+    position: relative;
+    z-index: 1;
+}
+
+section.banaer-area:after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    content: '';
+    background: linear-gradient(transparent, #000);
+    z-index: -1;
+}
+
+.banar-text h1 {
+    font-size: 60px;
+    color: #fff;
+}
+
+.banar-text {
+    text-align: center;
+}
+
+.banar-text p {
+    font-size: 18px;
+    color: #fff;
+    margin-top: 45px;
+}
+
+a.btu-donet {
+    text-decoration: none;
+    color: #fff;
+    background: #fa5507;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 8px;
+    padding: 13px 24px;
+    margin-top: 38px;
+    display: inline-block;
+}
+
+/* banaer-area end */
+
+/* donet area start */
+
+.donate-day-area{
+    padding-top: 145px;
+}
+
+.donat-text {
+    text-align: center;
+}
+
+.donat-text>h1 {
+    font-size: 36px;
+    font-weight: 600;
+    color: #000;
+}
+
+.donat-text p {
+    font-size: 18px;
+    color: #727272;
+    margin-bottom: 60px;
+    margin-top: 39px;
+}
+
+
+.donat-text>h1 {
+    font-size: 36px;
+    font-weight: 600;
+    color: #000;
+}
+
+.donat-text p {
+    font-size: 18px;
+    color: #727272;
+    margin-bottom: 60px;
+    margin-top: 39px;
+}
+
+.donat-amount {
+    display: flex;
+    width: 818px;
+    margin: auto;
+    height: 130px;
+}
+
+.donat-box {
+    width: 20%;
+    background: #bfbfbf;
+    margin: 0 10px;
+    padding: 50px 0;
+    color: #4d4d4d;
+}
+
+.donat-box.active {
+    border: 2px solid #f94902;
+    color: #f94902;
+    background-color: #f9480249;
+}
+
+.amount {
+    width: 818px;
+    margin: auto;
+}
+
+.amount input {
+    width: 100%;
+    text-align: center;
+    border: none;
+    border-bottom: 1px solid #000;
+    outline: none;
+    font-size: 25px;
+    margin-top: 55px;
+}
+/* donet area end */
+
+/* Donate plan area start */
+
+.donet-plan-area{
+    padding-top: 150px;
+}
+
+.donet-plan-site {
+    display: flex;
+}
+
+.plan-box {
+    margin: 0 12px;
+    padding: 60px 30px;
+}
+
+.plan-box h3 {
+    margin: 40px 0;
+    font-size: 22px;
+    color: #434242;
+}
+
+.plan-box p {
+    font-size: 17px;
+    line-height: 1.4;
+    color: #7b7979;
+}
+
+.plan-box.bg-1 {
+    background: #d1f1eb;
+}
+
+.plan-box.bg-2 {
+    background: antiquewhite;
+}
+
+.plan-box.bg-3 {
+    background: aliceblue;
+}
+
+/* Donate plan area end */
+
+/* contacr area start */
+
+#contact{
+    padding-top: 150px;
+}
+
+.contact-area {
+    display: flex;
+}
+
+.contact-from {
+    margin-right: 15px;
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+
+.contact-img {
+    margin-left: 15px;
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+
+.contact-img img {
+    width: 100%;
+}
+
+.contact-from input,.contact-from textarea {
+    width: 94%;
+    margin-bottom: 17px;
+    font-size: 16px;
+    padding: 11px;
+}
+
+/* contacr area start */
+
+/* Updates area start  */
+
+.Updates-area{
+    padding-top: 150px;
+    padding-bottom: 110px;
+}
+
+.email-area {
+    width: 552px;
+    margin: auto;
+    padding: 82px 130px;
+    background: blanchedalmond;
+    text-align: center;
+}
+
+.email-area .email {
+    width: 60%;
+    font-size: 17px;
+    padding: 10px 14px;
+    background: #cdcdcd;
+    margin: 0;
+    border-radius: 5px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+}
+
+input.sub-btu {
+    font-size: 17px;
+    padding: 11px 20px;
+    background-color: #e90c0c;
+    color: #fff;
+    font-weight: 600;
+    margin: 0;
+    border: none;
+    width: 32%;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.input-bg {
+    background: #cdcdcd;
+    width: 413px;
+    margin: auto;
+    border-radius: 8px;
+
+}
+
+/* Updates area end  */
+
+/* footer area strat */
+
+    #footer-area{
+        padding: 50px 0;
+        background-color: rgb(15, 2, 62);
+        text-align: center;
+    }
+
+    #footer-area h2{
+        color: #e90c0c;
+        margin-bottom: 21px;
+    }
+    #footer-area p{
+        color: #cdcdcd;
+    }
+
+/* footer area end */
